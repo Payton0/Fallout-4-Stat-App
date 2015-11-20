@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FAA7B131BFF908200FA2925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B121BFF908200FA2925 /* AppDelegate.swift */; };
+		3FAA7B151BFF908200FA2925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B141BFF908200FA2925 /* ViewController.swift */; };
+		3FAA7B181BFF908200FA2925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA7B161BFF908200FA2925 /* Main.storyboard */; };
+		3FAA7B1A1BFF908200FA2925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA7B191BFF908200FA2925 /* Assets.xcassets */; };
+		3FAA7B1D1BFF908200FA2925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA7B1B1BFF908200FA2925 /* LaunchScreen.storyboard */; };
+		3FAA7B281BFF908200FA2925 /* Fallout_Stat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B271BFF908200FA2925 /* Fallout_Stat_AppTests.swift */; };
+		3FAA7B331BFF908200FA2925 /* Fallout_Stat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B321BFF908200FA2925 /* Fallout_Stat_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FAA7B241BFF908200FA2925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FAA7B071BFF908200FA2925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAA7B0E1BFF908200FA2925;
+			remoteInfo = "Fallout Stat App";
+		};
+		3FAA7B2F1BFF908200FA2925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FAA7B071BFF908200FA2925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAA7B0E1BFF908200FA2925;
+			remoteInfo = "Fallout Stat App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FAA7B0F1BFF908200FA2925 /* Fallout Stat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fallout Stat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAA7B121BFF908200FA2925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FAA7B141BFF908200FA2925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FAA7B171BFF908200FA2925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FAA7B191BFF908200FA2925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FAA7B1C1BFF908200FA2925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FAA7B1E1BFF908200FA2925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FAA7B231BFF908200FA2925 /* Fallout Stat AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fallout Stat AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAA7B271BFF908200FA2925 /* Fallout_Stat_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fallout_Stat_AppTests.swift; sourceTree = "<group>"; };
+		3FAA7B291BFF908200FA2925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FAA7B2E1BFF908200FA2925 /* Fallout Stat AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fallout Stat AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAA7B321BFF908200FA2925 /* Fallout_Stat_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fallout_Stat_AppUITests.swift; sourceTree = "<group>"; };
+		3FAA7B341BFF908200FA2925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FAA7B0C1BFF908200FA2925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAA7B201BFF908200FA2925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAA7B2B1BFF908200FA2925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FAA7B061BFF908200FA2925 = {
+			isa = PBXGroup;
+			children = (
+				3FAA7B111BFF908200FA2925 /* Fallout Stat App */,
+				3FAA7B261BFF908200FA2925 /* Fallout Stat AppTests */,
+				3FAA7B311BFF908200FA2925 /* Fallout Stat AppUITests */,
+				3FAA7B101BFF908200FA2925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FAA7B101BFF908200FA2925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA7B0F1BFF908200FA2925 /* Fallout Stat App.app */,
+				3FAA7B231BFF908200FA2925 /* Fallout Stat AppTests.xctest */,
+				3FAA7B2E1BFF908200FA2925 /* Fallout Stat AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FAA7B111BFF908200FA2925 /* Fallout Stat App */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA7B121BFF908200FA2925 /* AppDelegate.swift */,
+				3FAA7B141BFF908200FA2925 /* ViewController.swift */,
+				3FAA7B161BFF908200FA2925 /* Main.storyboard */,
+				3FAA7B191BFF908200FA2925 /* Assets.xcassets */,
+				3FAA7B1B1BFF908200FA2925 /* LaunchScreen.storyboard */,
+				3FAA7B1E1BFF908200FA2925 /* Info.plist */,
+			);
+			path = "Fallout Stat App";
+			sourceTree = "<group>";
+		};
+		3FAA7B261BFF908200FA2925 /* Fallout Stat AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA7B271BFF908200FA2925 /* Fallout_Stat_AppTests.swift */,
+				3FAA7B291BFF908200FA2925 /* Info.plist */,
+			);
+			path = "Fallout Stat AppTests";
+			sourceTree = "<group>";
+		};
+		3FAA7B311BFF908200FA2925 /* Fallout Stat AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA7B321BFF908200FA2925 /* Fallout_Stat_AppUITests.swift */,
+				3FAA7B341BFF908200FA2925 /* Info.plist */,
+			);
+			path = "Fallout Stat AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FAA7B0E1BFF908200FA2925 /* Fallout Stat App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAA7B371BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat App" */;
+			buildPhases = (
+				3FAA7B0B1BFF908200FA2925 /* Sources */,
+				3FAA7B0C1BFF908200FA2925 /* Frameworks */,
+				3FAA7B0D1BFF908200FA2925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fallout Stat App";
+			productName = "Fallout Stat App";
+			productReference = 3FAA7B0F1BFF908200FA2925 /* Fallout Stat App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FAA7B221BFF908200FA2925 /* Fallout Stat AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAA7B3A1BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat AppTests" */;
+			buildPhases = (
+				3FAA7B1F1BFF908200FA2925 /* Sources */,
+				3FAA7B201BFF908200FA2925 /* Frameworks */,
+				3FAA7B211BFF908200FA2925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FAA7B251BFF908200FA2925 /* PBXTargetDependency */,
+			);
+			name = "Fallout Stat AppTests";
+			productName = "Fallout Stat AppTests";
+			productReference = 3FAA7B231BFF908200FA2925 /* Fallout Stat AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FAA7B2D1BFF908200FA2925 /* Fallout Stat AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAA7B3D1BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat AppUITests" */;
+			buildPhases = (
+				3FAA7B2A1BFF908200FA2925 /* Sources */,
+				3FAA7B2B1BFF908200FA2925 /* Frameworks */,
+				3FAA7B2C1BFF908200FA2925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FAA7B301BFF908200FA2925 /* PBXTargetDependency */,
+			);
+			name = "Fallout Stat AppUITests";
+			productName = "Fallout Stat AppUITests";
+			productReference = 3FAA7B2E1BFF908200FA2925 /* Fallout Stat AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FAA7B071BFF908200FA2925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "PMuhs@bsd.220org";
+				TargetAttributes = {
+					3FAA7B0E1BFF908200FA2925 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3FAA7B221BFF908200FA2925 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3FAA7B0E1BFF908200FA2925;
+					};
+					3FAA7B2D1BFF908200FA2925 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3FAA7B0E1BFF908200FA2925;
+					};
+				};
+			};
+			buildConfigurationList = 3FAA7B0A1BFF908200FA2925 /* Build configuration list for PBXProject "Fallout Stat App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FAA7B061BFF908200FA2925;
+			productRefGroup = 3FAA7B101BFF908200FA2925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FAA7B0E1BFF908200FA2925 /* Fallout Stat App */,
+				3FAA7B221BFF908200FA2925 /* Fallout Stat AppTests */,
+				3FAA7B2D1BFF908200FA2925 /* Fallout Stat AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FAA7B0D1BFF908200FA2925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAA7B1D1BFF908200FA2925 /* LaunchScreen.storyboard in Resources */,
+				3FAA7B1A1BFF908200FA2925 /* Assets.xcassets in Resources */,
+				3FAA7B181BFF908200FA2925 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAA7B211BFF908200FA2925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAA7B2C1BFF908200FA2925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FAA7B0B1BFF908200FA2925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAA7B151BFF908200FA2925 /* ViewController.swift in Sources */,
+				3FAA7B131BFF908200FA2925 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAA7B1F1BFF908200FA2925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAA7B281BFF908200FA2925 /* Fallout_Stat_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAA7B2A1BFF908200FA2925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAA7B331BFF908200FA2925 /* Fallout_Stat_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FAA7B251BFF908200FA2925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FAA7B0E1BFF908200FA2925 /* Fallout Stat App */;
+			targetProxy = 3FAA7B241BFF908200FA2925 /* PBXContainerItemProxy */;
+		};
+		3FAA7B301BFF908200FA2925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FAA7B0E1BFF908200FA2925 /* Fallout Stat App */;
+			targetProxy = 3FAA7B2F1BFF908200FA2925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FAA7B161BFF908200FA2925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FAA7B171BFF908200FA2925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FAA7B1B1BFF908200FA2925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FAA7B1C1BFF908200FA2925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FAA7B351BFF908200FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FAA7B361BFF908200FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FAA7B381BFF908200FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fallout Stat App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x.Fallout-Stat-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FAA7B391BFF908200FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fallout Stat App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x.Fallout-Stat-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FAA7B3B1BFF908200FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fallout Stat AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x.Fallout-Stat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fallout Stat App.app/Fallout Stat App";
+			};
+			name = Debug;
+		};
+		3FAA7B3C1BFF908200FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fallout Stat AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x.Fallout-Stat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fallout Stat App.app/Fallout Stat App";
+			};
+			name = Release;
+		};
+		3FAA7B3E1BFF908200FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fallout Stat AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x.Fallout-Stat-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fallout Stat App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FAA7B3F1BFF908200FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fallout Stat AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x.Fallout-Stat-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fallout Stat App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FAA7B0A1BFF908200FA2925 /* Build configuration list for PBXProject "Fallout Stat App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAA7B351BFF908200FA2925 /* Debug */,
+				3FAA7B361BFF908200FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAA7B371BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAA7B381BFF908200FA2925 /* Debug */,
+				3FAA7B391BFF908200FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FAA7B3A1BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAA7B3B1BFF908200FA2925 /* Debug */,
+				3FAA7B3C1BFF908200FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FAA7B3D1BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAA7B3E1BFF908200FA2925 /* Debug */,
+				3FAA7B3F1BFF908200FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FAA7B071BFF908200FA2925 /* Project object */;
+}
