@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F69AAD61C17440500844D8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F69AAD51C17440500844D8D /* Images.xcassets */; };
+		3F69AAD81C1B396400844D8D /* Slot Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69AAD71C1B396400844D8D /* Slot Machine.swift */; };
 		3FAA7B131BFF908200FA2925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B121BFF908200FA2925 /* AppDelegate.swift */; };
 		3FAA7B151BFF908200FA2925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B141BFF908200FA2925 /* ViewController.swift */; };
 		3FAA7B181BFF908200FA2925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA7B161BFF908200FA2925 /* Main.storyboard */; };
-		3FAA7B1A1BFF908200FA2925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA7B191BFF908200FA2925 /* Assets.xcassets */; };
 		3FAA7B1D1BFF908200FA2925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA7B1B1BFF908200FA2925 /* LaunchScreen.storyboard */; };
 		3FAA7B281BFF908200FA2925 /* Fallout_Stat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B271BFF908200FA2925 /* Fallout_Stat_AppTests.swift */; };
 		3FAA7B331BFF908200FA2925 /* Fallout_Stat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA7B321BFF908200FA2925 /* Fallout_Stat_AppUITests.swift */; };
@@ -34,11 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F69AAD51C17440500844D8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F69AAD71C1B396400844D8D /* Slot Machine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Slot Machine.swift"; sourceTree = "<group>"; };
 		3FAA7B0F1BFF908200FA2925 /* Fallout Stat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fallout Stat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAA7B121BFF908200FA2925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FAA7B141BFF908200FA2925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FAA7B171BFF908200FA2925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FAA7B191BFF908200FA2925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FAA7B1C1BFF908200FA2925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FAA7B1E1BFF908200FA2925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FAA7B231BFF908200FA2925 /* Fallout Stat AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fallout Stat AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +102,8 @@
 				3FAA7B121BFF908200FA2925 /* AppDelegate.swift */,
 				3FAA7B141BFF908200FA2925 /* ViewController.swift */,
 				3FAA7B161BFF908200FA2925 /* Main.storyboard */,
-				3FAA7B191BFF908200FA2925 /* Assets.xcassets */,
+				3F69AAD71C1B396400844D8D /* Slot Machine.swift */,
+				3F69AAD51C17440500844D8D /* Images.xcassets */,
 				3FAA7B1B1BFF908200FA2925 /* LaunchScreen.storyboard */,
 				3FAA7B1E1BFF908200FA2925 /* Info.plist */,
 			);
@@ -229,8 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F69AAD61C17440500844D8D /* Images.xcassets in Resources */,
 				3FAA7B1D1BFF908200FA2925 /* LaunchScreen.storyboard in Resources */,
-				3FAA7B1A1BFF908200FA2925 /* Assets.xcassets in Resources */,
 				3FAA7B181BFF908200FA2925 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FAA7B151BFF908200FA2925 /* ViewController.swift in Sources */,
+				3F69AAD81C1B396400844D8D /* Slot Machine.swift in Sources */,
 				3FAA7B131BFF908200FA2925 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				3FAA7B391BFF908200FA2925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FAA7B3A1BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat AppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				3FAA7B3C1BFF908200FA2925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FAA7B3D1BFF908200FA2925 /* Build configuration list for PBXNativeTarget "Fallout Stat AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				3FAA7B3F1BFF908200FA2925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
